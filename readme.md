@@ -1,5 +1,7 @@
 # Qocho Old Uyghur Regular (`v1.000`)
 
+![Qocho Old Uyghur Regular Specimen](photo_2026-11-20_13-05-15.jpg)
+
 **Qocho Old Uyghur Regular** is an OpenType typeface for the [Old Uyghur script](https://en.wikipedia.org/wiki/Old_Uyghur_script) covering the Unicode [Old Uyghur block (`U+10F70–U+10FAF`)](https://www.unicode.org/Public/17.0.0/charts/PDF/U10F70.pdf) and Manichaean punctuation (`U+10AF2`, Double Dot Within Dot).
 
 The typeface is a glyph-by-glyph geometric reconstruction synthesized from two reference sources—**Noto Serif Old Uyghur** (`95 u` baseline ribbon, scaled by `17/19 ≈ 0.8947`) and **Uigurica Regular** (`75 u` baseline ribbon, scaled by `17/15 ≈ 1.1333`)—normalized to a unified `85.00 u` baseline ribbon with `0.00%` aspect distortion while following the contextual joining and OpenType shaping model documented in [Unicode proposal L2/20-191](https://www.unicode.org/L2/L2020/20191-old-uyghur.pdf).
