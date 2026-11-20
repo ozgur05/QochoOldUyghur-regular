@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="PunctuationTwoBars" format="2">
+  <advance width="494"/>
+  <unicode hex="10F87"/>
+  <outline>
+    <contour>
+      <point x="157.31" y="77.43"/>
+      <point x="180.91" y="140.33"/>
+      <point x="223.39" y="190.34" type="curve"/>
+      <point x="236.26" y="184.81"/>
+      <point x="249.98" y="179.51"/>
+      <point x="259.1" y="168.31" type="curve"/>
+      <point x="224.94" y="111.91"/>
+      <point x="202.51" y="46.05"/>
+      <point x="153.82" y="0.0" type="curve"/>
+      <point x="143.0" y="4.16"/>
+      <point x="133.24" y="11.27"/>
+      <point x="126.04" y="20.36" type="curve"/>
+    </contour>
+    <contour>
+      <point x="262.67" y="77.46"/>
+      <point x="286.32" y="141.74"/>
+      <point x="331.31" y="190.53" type="curve"/>
+      <point x="345.06" y="184.57"/>
+      <point x="358.97" y="177.45"/>
+      <point x="367.8" y="164.84" type="curve"/>
+      <point x="334.98" y="108.47"/>
+      <point x="305.66" y="48.35"/>
+      <point x="261.15" y="0.0" type="curve"/>
+      <point x="250.63" y="5.51"/>
+      <point x="238.33" y="10.01"/>
+      <point x="230.91" y="20.0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

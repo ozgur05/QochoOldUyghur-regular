@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="samekhuyg.init" format="2">
+  <advance width="307"/>
+  <outline>
+    <contour>
+      <point x="39.31" y="85.0"/>
+      <point x="38.44" y="98.48"/>
+      <point x="55.18" y="129.09" type="curve" smooth="yes"/>
+      <point x="62.57" y="142.6"/>
+      <point x="94.0" y="212.35"/>
+      <point x="105.55" y="212.35" type="curve" smooth="yes"/>
+      <point x="159.75" y="212.35"/>
+      <point x="156.96" y="113.89"/>
+      <point x="171.88" y="103.94" type="curve" smooth="yes"/>
+      <point x="206.95" y="102.67"/>
+      <point x="223.63" y="208.87"/>
+      <point x="255.39" y="208.87" type="curve"/>
+      <point x="278.84" y="208.87"/>
+      <point x="293.59" y="129.54"/>
+      <point x="293.59" y="109.61" type="curve" smooth="yes"/>
+      <point x="293.59" y="53.5"/>
+      <point x="251.73" y="5.37"/>
+      <point x="210.57" y="-27.9" type="curve" smooth="yes"/>
+      <point x="173.96" y="-57.48"/>
+      <point x="101.9" y="-107.6"/>
+      <point x="55.6" y="-107.6" type="curve" smooth="yes"/>
+      <point x="41.35" y="-107.6"/>
+      <point x="37.75" y="-77.45"/>
+      <point x="29.85" y="-71.24" type="curve" smooth="yes"/>
+      <point x="57.26" y="-16.53"/>
+      <point x="64.42" y="20.38"/>
+      <point x="61.04" y="29.39" type="curve"/>
+      <point x="48.91" y="12.86"/>
+      <point x="25.43" y="0.0"/>
+      <point x="-0.5" y="0.0" type="curve"/>
+      <point x="-2.43" y="0.0"/>
+      <point x="-4.0" y="1.57"/>
+      <point x="-4.0" y="3.5" type="curve" smooth="yes"/>
+      <point x="-4.0" y="81.5" type="line"/>
+      <point x="-4.0" y="83.43"/>
+      <point x="-2.43" y="85.0"/>
+      <point x="-0.5" y="85.0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

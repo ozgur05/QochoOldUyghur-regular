@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yodhuyg.fina" format="2">
+  <advance width="385"/>
+  <outline>
+    <contour>
+      <point x="12.64" y="-3.56"/>
+      <point x="64.93" y="59.64"/>
+      <point x="93.92" y="59.64" type="curve" smooth="yes"/>
+      <point x="151.91" y="59.64"/>
+      <point x="212.29" y="66.08"/>
+      <point x="269.4" y="73.71" type="curve" smooth="yes"/>
+      <point x="273.28" y="153.29"/>
+      <point x="121.44" y="97.68"/>
+      <point x="121.44" y="118.94" type="curve"/>
+      <point x="121.44" y="153.01"/>
+      <point x="238.72" y="229.0"/>
+      <point x="258.28" y="229.0" type="curve" smooth="yes"/>
+      <point x="299.56" y="229.0"/>
+      <point x="328.27" y="199.51"/>
+      <point x="344.46" y="164.66" type="curve" smooth="yes"/>
+      <point x="351.7" y="149.07"/>
+      <point x="369.52" y="85.0"/>
+      <point x="385.5" y="85.0" type="curve" smooth="yes"/>
+      <point x="387.43" y="85.0"/>
+      <point x="389.0" y="83.43"/>
+      <point x="389.0" y="81.5" type="curve" smooth="yes"/>
+      <point x="389.0" y="3.5" type="line"/>
+      <point x="389.0" y="1.57"/>
+      <point x="387.43" y="0.0"/>
+      <point x="385.5" y="0.0" type="curve" smooth="yes"/>
+      <point x="366.03" y="0.0"/>
+      <point x="344.14" y="4.53"/>
+      <point x="324.03" y="4.53" type="curve" smooth="yes"/>
+      <point x="276.47" y="4.53"/>
+      <point x="224.35" y="-16.43"/>
+      <point x="176.74" y="-23.8" type="curve" smooth="yes"/>
+      <point x="127.43" y="-31.44"/>
+      <point x="70.08" y="-45.04"/>
+      <point x="19.53" y="-45.04" type="curve" smooth="yes"/>
+      <point x="17.41" y="-45.04"/>
+      <point x="12.64" y="-38.53"/>
+      <point x="12.64" y="-36.03" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

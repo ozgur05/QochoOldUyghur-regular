@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaboveuyg" format="2">
+  <unicode hex="10F82"/>
+  <outline>
+    <contour>
+      <point x="159.47" y="519.63"/>
+      <point x="179.54" y="566.19"/>
+      <point x="216.59" y="597.24" type="curve"/>
+      <point x="229.46" y="590.77"/>
+      <point x="243.25" y="584.55"/>
+      <point x="251.75" y="572.33" type="curve"/>
+      <point x="223.83" y="533.63"/>
+      <point x="202.88" y="486.91"/>
+      <point x="162.93" y="458.91" type="curve"/>
+      <point x="151.71" y="462.86"/>
+      <point x="140.64" y="469.22"/>
+      <point x="134.11" y="479.48" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

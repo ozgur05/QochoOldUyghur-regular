@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="PunctuationBar" format="2">
+  <advance width="332"/>
+  <unicode hex="10F86"/>
+  <outline>
+    <contour>
+      <point x="129.32" y="77.8"/>
+      <point x="152.41" y="141.68"/>
+      <point x="196.18" y="191.19" type="curve"/>
+      <point x="209.65" y="185.54"/>
+      <point x="223.11" y="178.7"/>
+      <point x="232.56" y="167.19" type="curve"/>
+      <point x="199.91" y="110.2"/>
+      <point x="175.2" y="46.09"/>
+      <point x="126.9" y="0.0" type="curve"/>
+      <point x="116.44" y="4.7"/>
+      <point x="106.57" y="11.06"/>
+      <point x="99.03" y="19.81" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

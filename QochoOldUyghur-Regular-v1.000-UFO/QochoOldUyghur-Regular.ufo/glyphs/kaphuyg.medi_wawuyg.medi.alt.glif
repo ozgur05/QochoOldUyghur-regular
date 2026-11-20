@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kaphuyg.medi_wawuyg.medi.alt" format="2">
+  <advance width="537"/>
+  <outline>
+    <contour>
+      <point x="8.02" y="85.0" type="line"/>
+      <point x="19.03" y="153.4"/>
+      <point x="61.53" y="238.73"/>
+      <point x="139.7" y="243.91" type="curve"/>
+      <point x="196.74" y="244.66"/>
+      <point x="244.73" y="191.42"/>
+      <point x="252.88" y="137.58" type="curve"/>
+      <point x="251.54" y="104.23"/>
+      <point x="231.21" y="70.35"/>
+      <point x="201.97" y="54.4" type="curve"/>
+      <point x="169.26" y="46.96"/>
+      <point x="135.3" y="41.9"/>
+      <point x="105.07" y="26.63" type="curve"/>
+      <point x="121.95" y="2.11"/>
+      <point x="155.2" y="-0.25"/>
+      <point x="182.44" y="-0.63" type="curve"/>
+      <point x="235.67" y="-0.08"/>
+      <point x="293.03" y="16.56"/>
+      <point x="329.08" y="57.53" type="curve"/>
+      <point x="298.45" y="80.09"/>
+      <point x="271.51" y="108.66"/>
+      <point x="258.13" y="144.89" type="curve"/>
+      <point x="279.21" y="189.75"/>
+      <point x="322.52" y="221.64"/>
+      <point x="366.17" y="241.58" type="curve"/>
+      <point x="397.77" y="221.4"/>
+      <point x="404.24" y="171.62"/>
+      <point x="433.9" y="153.95" type="curve"/>
+      <point x="462.08" y="171.86"/>
+      <point x="475.88" y="207.96"/>
+      <point x="497.43" y="228.78" type="curve"/>
+      <point x="533.65" y="194.61"/>
+      <point x="502.25" y="129.52"/>
+      <point x="523.72" y="85.0" type="curve"/>
+      <point x="542.0" y="85.0" type="line"/>
+      <point x="542.0" y="0.0" type="line"/>
+      <point x="429.06" y="0.0" type="line"/>
+      <point x="339.26" y="-9.69"/>
+      <point x="238.13" y="-100.35"/>
+      <point x="131.26" y="-95.65" type="curve"/>
+      <point x="72.65" y="-99.44"/>
+      <point x="21.67" y="-54.34"/>
+      <point x="5.82" y="0.0" type="curve"/>
+      <point x="0.0" y="0.0" type="line"/>
+      <point x="0.0" y="85.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="95.26" y="102.05"/>
+      <point x="112.31" y="101.53"/>
+      <point x="128.59" y="102.57" type="curve"/>
+      <point x="145.36" y="104.35"/>
+      <point x="162.56" y="105.9"/>
+      <point x="178.17" y="112.77" type="curve"/>
+      <point x="172.61" y="137.14"/>
+      <point x="147.23" y="154.82"/>
+      <point x="122.55" y="152.91" type="curve"/>
+      <point x="98.45" y="152.84"/>
+      <point x="85.71" y="129.11"/>
+      <point x="80.14" y="108.8" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

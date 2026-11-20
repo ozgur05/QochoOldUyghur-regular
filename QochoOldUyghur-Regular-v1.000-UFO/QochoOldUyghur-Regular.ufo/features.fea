@@ -1,0 +1,204 @@
+languagesystem DFLT dflt;
+languagesystem ougr dflt;
+
+# GDEF Glyph Classes (Base, Ligature, Mark)
+@GDEF_BASE = [
+  uni0640 alephuyg bethuyg gimelHethuyg wawuyg zayinuyg finalHethuyg yodhuyg
+  kaphuyg lamedhuyg memuyg nunuyg samekhuyg peuyg sadheuyg reshuyg shinuyg
+  tawuyg leshuyg kaphuyg.alt
+  alephuyg.init alephuyg.medi alephuyg.fina
+  bethuyg.init bethuyg.medi bethuyg.fina
+  gimelHethuyg.init gimelHethuyg.medi gimelHethuyg.fina
+  wawuyg.init wawuyg.medi wawuyg.fina
+  zayinuyg.fina finalHethuyg.fina
+  yodhuyg.init yodhuyg.medi yodhuyg.fina
+  kaphuyg.init kaphuyg.medi kaphuyg.fina
+  lamedhuyg.init lamedhuyg.medi lamedhuyg.fina
+  memuyg.init memuyg.medi memuyg.fina
+  nunuyg.init nunuyg.medi nunuyg.fina
+  samekhuyg.init samekhuyg.medi samekhuyg.fina
+  peuyg.init peuyg.medi peuyg.fina
+  sadheuyg.init sadheuyg.medi sadheuyg.fina
+  reshuyg.init reshuyg.medi reshuyg.fina
+  shinuyg.init shinuyg.medi shinuyg.fina
+  tawuyg.init tawuyg.medi tawuyg.fina
+  leshuyg.init leshuyg.medi leshuyg.fina
+  PunctuationBar PunctuationTwoBars PunctuationTwoDots PunctuationFourDots u10AF2 uni25CC
+];
+@GDEF_LIGA = [
+  gimelHethtwodotsaboveuyg
+  kaphuyg_leshuyg kaphuyg.init_leshuyg.init kaphuyg.medi_leshuyg.medi kaphuyg.fina_leshuyg.fina
+  kaphuyg_wawuyg kaphuyg.init_wawuyg.init kaphuyg.medi_wawuyg.medi kaphuyg.medi_wawuyg.medi.alt kaphuyg.fina_wawuyg.fina
+  memuyg_leshuyg memuyg.init_leshuyg.init memuyg.medi_leshuyg.medi memuyg.fina_leshuyg.fina
+  peuyg_leshuyg peuyg.init_leshuyg.init peuyg.medi_leshuyg.medi peuyg.fina_leshuyg.fina
+  peuyg_wawuyg peuyg.init_wawuyg.init peuyg.medi_wawuyg.medi peuyg.fina_wawuyg.fina
+];
+@GDEF_MARK = [dotaboveuyg dotbelowuyg twodotsaboveuyg twodotsbelowuyg];
+
+table GDEF {
+  GlyphClassDef @GDEF_BASE, @GDEF_LIGA, @GDEF_MARK, ;
+} GDEF;
+
+# Noto Serif Old Uyghur Joining & Connection Rules (Qocho v0.960 — 109 Slots)
+@KAPH_PE_NON_LEFT = [kaphuyg.init kaphuyg.medi peuyg.init peuyg.medi];
+@ALL_MEDI = [alephuyg.medi bethuyg.medi gimelHethuyg.medi wawuyg.medi yodhuyg.medi kaphuyg.medi lamedhuyg.medi memuyg.medi nunuyg.medi samekhuyg.medi peuyg.medi sadheuyg.medi reshuyg.medi shinuyg.medi tawuyg.medi leshuyg.medi];
+@ALL_INIT = [alephuyg.init bethuyg.init gimelHethuyg.init wawuyg.init yodhuyg.init kaphuyg.init lamedhuyg.init memuyg.init nunuyg.init samekhuyg.init peuyg.init sadheuyg.init reshuyg.init shinuyg.init tawuyg.init leshuyg.init];
+@ALL_FINA = [alephuyg.fina bethuyg.fina gimelHethuyg.fina wawuyg.fina yodhuyg.fina kaphuyg.fina lamedhuyg.fina memuyg.fina nunuyg.fina samekhuyg.fina peuyg.fina sadheuyg.fina reshuyg.fina shinuyg.fina tawuyg.fina leshuyg.fina zayinuyg.fina finalHethuyg.fina];
+@ALL_ISOL = [alephuyg bethuyg gimelHethuyg wawuyg yodhuyg kaphuyg lamedhuyg memuyg nunuyg samekhuyg peuyg sadheuyg reshuyg shinuyg tawuyg leshuyg zayinuyg finalHethuyg];
+
+lookup break_after_kaph_pe_medi {
+  lookupflag RightToLeft IgnoreMarks;
+  sub @ALL_MEDI by @ALL_INIT;
+} break_after_kaph_pe_medi;
+
+lookup break_after_kaph_pe_fina {
+  lookupflag RightToLeft IgnoreMarks;
+  sub @ALL_FINA by @ALL_ISOL;
+} break_after_kaph_pe_fina;
+
+lookup aleph_to_isol {
+  sub alephuyg.medi by alephuyg;
+  sub alephuyg.fina by alephuyg;
+} aleph_to_isol;
+
+feature aalt {
+  feature init;
+  feature medi;
+  feature fina;
+  feature salt;
+} aalt;
+
+feature ccmp {
+  sub gimelHethuyg twodotsaboveuyg by gimelHethtwodotsaboveuyg;
+} ccmp;
+
+feature init {
+  sub alephuyg by alephuyg.init;
+  sub bethuyg by bethuyg.init;
+  sub gimelHethuyg by gimelHethuyg.init;
+  sub wawuyg by wawuyg.init;
+  sub yodhuyg by yodhuyg.init;
+  sub kaphuyg by kaphuyg.init;
+  sub lamedhuyg by lamedhuyg.init;
+  sub memuyg by memuyg.init;
+  sub nunuyg by nunuyg.init;
+  sub samekhuyg by samekhuyg.init;
+  sub peuyg by peuyg.init;
+  sub sadheuyg by sadheuyg.init;
+  sub reshuyg by reshuyg.init;
+  sub shinuyg by shinuyg.init;
+  sub tawuyg by tawuyg.init;
+  sub leshuyg by leshuyg.init;
+} init;
+
+feature medi {
+  sub alephuyg by alephuyg.medi;
+  sub bethuyg by bethuyg.medi;
+  sub gimelHethuyg by gimelHethuyg.medi;
+  sub wawuyg by wawuyg.medi;
+  sub yodhuyg by yodhuyg.medi;
+  sub kaphuyg by kaphuyg.medi;
+  sub lamedhuyg by lamedhuyg.medi;
+  sub memuyg by memuyg.medi;
+  sub nunuyg by nunuyg.medi;
+  sub samekhuyg by samekhuyg.medi;
+  sub peuyg by peuyg.medi;
+  sub sadheuyg by sadheuyg.medi;
+  sub reshuyg by reshuyg.medi;
+  sub shinuyg by shinuyg.medi;
+  sub tawuyg by tawuyg.medi;
+  sub leshuyg by leshuyg.medi;
+} medi;
+
+feature fina {
+  sub alephuyg by alephuyg.fina;
+  sub bethuyg by bethuyg.fina;
+  sub gimelHethuyg by gimelHethuyg.fina;
+  sub wawuyg by wawuyg.fina;
+  sub yodhuyg by yodhuyg.fina;
+  sub kaphuyg by kaphuyg.fina;
+  sub lamedhuyg by lamedhuyg.fina;
+  sub memuyg by memuyg.fina;
+  sub nunuyg by nunuyg.fina;
+  sub samekhuyg by samekhuyg.fina;
+  sub peuyg by peuyg.fina;
+  sub sadheuyg by sadheuyg.fina;
+  sub reshuyg by reshuyg.fina;
+  sub shinuyg by shinuyg.fina;
+  sub tawuyg by tawuyg.fina;
+  sub leshuyg by leshuyg.fina;
+  sub zayinuyg by zayinuyg.fina;
+  sub finalHethuyg by finalHethuyg.fina;
+} fina;
+
+feature rclt {
+  sub peuyg.medi alephuyg.medi' lookup aleph_to_isol;
+  sub [peuyg.init peuyg.medi kaphuyg.init] alephuyg.fina' lookup aleph_to_isol;
+} rclt;
+
+feature rlig {
+  lookup rlig_ligatures {
+    lookupflag RightToLeft IgnoreMarks;
+    sub kaphuyg.init leshuyg.fina by kaphuyg_leshuyg;
+    sub kaphuyg.init leshuyg.medi by kaphuyg.init_leshuyg.init;
+    sub kaphuyg.init wawuyg.fina by kaphuyg_wawuyg;
+    sub kaphuyg.init wawuyg.medi by kaphuyg.init_wawuyg.init;
+    sub kaphuyg.medi leshuyg.fina by kaphuyg.fina_leshuyg.fina;
+    sub kaphuyg.medi leshuyg.medi by kaphuyg.medi_leshuyg.medi;
+    sub kaphuyg.medi wawuyg.fina by kaphuyg.fina_wawuyg.fina;
+    sub kaphuyg.medi wawuyg.medi by kaphuyg.medi_wawuyg.medi.alt;
+    sub memuyg.init leshuyg.fina by memuyg_leshuyg;
+    sub memuyg.init leshuyg.medi by memuyg.init_leshuyg.init;
+    sub memuyg.medi leshuyg.fina by memuyg.fina_leshuyg.fina;
+    sub memuyg.medi leshuyg.medi by memuyg.medi_leshuyg.medi;
+    sub peuyg.init leshuyg.fina by peuyg_leshuyg;
+    sub peuyg.init leshuyg.medi by peuyg.init_leshuyg.init;
+    sub peuyg.init wawuyg.fina by peuyg_wawuyg;
+    sub peuyg.init wawuyg.medi by peuyg.init_wawuyg.init;
+    sub peuyg.medi leshuyg.fina by peuyg.fina_leshuyg.fina;
+    sub peuyg.medi leshuyg.medi by peuyg.medi_leshuyg.medi;
+    sub peuyg.medi wawuyg.fina by peuyg.fina_wawuyg.fina;
+    sub peuyg.medi wawuyg.medi by peuyg.medi_wawuyg.medi;
+  } rlig_ligatures;
+
+  lookup rlig_kaph_pe_break {
+    lookupflag RightToLeft IgnoreMarks;
+    sub @KAPH_PE_NON_LEFT @ALL_MEDI' lookup break_after_kaph_pe_medi;
+    sub @KAPH_PE_NON_LEFT @ALL_FINA' lookup break_after_kaph_pe_fina;
+  } rlig_kaph_pe_break;
+} rlig;
+
+feature salt {
+  sub kaphuyg.fina by kaphuyg.alt;
+} salt;
+
+feature dlig {
+  lookupflag IgnoreMarks;
+  sub kaphuyg leshuyg by kaphuyg_leshuyg;
+  sub kaphuyg wawuyg by kaphuyg_wawuyg;
+  sub memuyg leshuyg by memuyg_leshuyg;
+  sub peuyg leshuyg by peuyg_leshuyg;
+  sub peuyg wawuyg by peuyg_wawuyg;
+  sub kaphuyg.init leshuyg.init by kaphuyg.init_leshuyg.init;
+  sub kaphuyg.init wawuyg.init by kaphuyg.init_wawuyg.init;
+  sub kaphuyg.medi leshuyg.medi by kaphuyg.medi_leshuyg.medi;
+  sub kaphuyg.medi wawuyg.medi by kaphuyg.medi_wawuyg.medi;
+  sub memuyg.init leshuyg.init by memuyg.init_leshuyg.init;
+  sub memuyg.medi leshuyg.medi by memuyg.medi_leshuyg.medi;
+  sub peuyg.init leshuyg.init by peuyg.init_leshuyg.init;
+  sub peuyg.init wawuyg.init by peuyg.init_wawuyg.init;
+  sub peuyg.medi leshuyg.medi by peuyg.medi_leshuyg.medi;
+  sub peuyg.medi wawuyg.medi by peuyg.medi_wawuyg.medi;
+  sub kaphuyg.fina leshuyg.fina by kaphuyg.fina_leshuyg.fina;
+  sub kaphuyg.fina wawuyg.fina by kaphuyg.fina_wawuyg.fina;
+  sub memuyg.fina leshuyg.fina by memuyg.fina_leshuyg.fina;
+  sub peuyg.fina leshuyg.fina by peuyg.fina_leshuyg.fina;
+  sub peuyg.fina wawuyg.fina by peuyg.fina_wawuyg.fina;
+} dlig;
+
+feature dist {
+  lookup dist_after_kaph_pe {
+    pos @KAPH_PE_NON_LEFT [gimelHethuyg gimelHethuyg.init]' <0 0 134 0>;
+    pos @KAPH_PE_NON_LEFT [memuyg samekhuyg samekhuyg.init shinuyg shinuyg.init]' <0 0 179 0>;
+  } dist_after_kaph_pe;
+} dist;

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="reshuyg.medi" format="2">
+  <advance width="262"/>
+  <outline>
+    <contour>
+      <point x="-2.21" y="0.0"/>
+      <point x="-4.0" y="1.57"/>
+      <point x="-4.0" y="3.5" type="curve" smooth="yes"/>
+      <point x="-4.0" y="81.5" type="line"/>
+      <point x="-4.0" y="83.43"/>
+      <point x="-2.21" y="85.0"/>
+      <point x="0.0" y="85.0" type="curve" smooth="yes"/>
+      <point x="41.01" y="89.07"/>
+      <point x="34.91" y="132.12"/>
+      <point x="51.0" y="160.3" type="curve" smooth="yes"/>
+      <point x="58.33" y="173.12"/>
+      <point x="95.38" y="239.75"/>
+      <point x="120.94" y="221.99" type="curve" smooth="yes"/>
+      <point x="137.26" y="210.64"/>
+      <point x="132.47" y="156.19"/>
+      <point x="150.2" y="137.38" type="curve" smooth="yes"/>
+      <point x="173.06" y="149.44"/>
+      <point x="202.31" y="211.41"/>
+      <point x="219.39" y="215.03" type="curve" smooth="yes"/>
+      <point x="238.82" y="219.13"/>
+      <point x="236.89" y="150.48"/>
+      <point x="236.29" y="142.29" type="curve" smooth="yes"/>
+      <point x="233.18" y="100.06"/>
+      <point x="213.95" y="85.0"/>
+      <point x="262.0" y="85.0" type="curve" smooth="yes"/>
+      <point x="264.21" y="85.0"/>
+      <point x="266.0" y="83.43"/>
+      <point x="266.0" y="81.5" type="curve" smooth="yes"/>
+      <point x="266.0" y="3.5" type="line"/>
+      <point x="266.0" y="1.57"/>
+      <point x="264.21" y="0.0"/>
+      <point x="262.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="0.0" y="0.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

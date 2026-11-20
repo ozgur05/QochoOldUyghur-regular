@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twodotsaboveuyg" format="2">
+  <unicode hex="10F84"/>
+  <outline>
+    <contour>
+      <point x="170.43" y="520.32"/>
+      <point x="190.25" y="566.32"/>
+      <point x="226.94" y="597.24" type="curve"/>
+      <point x="239.09" y="590.91"/>
+      <point x="252.16" y="584.84"/>
+      <point x="259.97" y="572.97" type="curve"/>
+      <point x="231.8" y="534.34"/>
+      <point x="211.66" y="487.01"/>
+      <point x="172.35" y="458.34" type="curve"/>
+      <point x="161.19" y="462.73"/>
+      <point x="150.83" y="470.03"/>
+      <point x="144.92" y="480.7" type="curve"/>
+    </contour>
+    <contour>
+      <point x="264.52" y="520.52"/>
+      <point x="282.9" y="568.54"/>
+      <point x="321.89" y="597.43" type="curve"/>
+      <point x="335.02" y="590.72"/>
+      <point x="348.07" y="582.61"/>
+      <point x="355.69" y="569.5" type="curve"/>
+      <point x="328.24" y="530.61"/>
+      <point x="302.89" y="487.33"/>
+      <point x="264.05" y="458.72" type="curve"/>
+      <point x="253.11" y="464.06"/>
+      <point x="242.25" y="471.12"/>
+      <point x="236.39" y="482.17" type="curve"/>
+    </contour>
+  </outline>
+</glyph>
